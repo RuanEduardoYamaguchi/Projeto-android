@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pliant:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pliant:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url(/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+:root {
+    --cor0: #0A2233;
+    --cor1: #003C66;
+    --cor2: #5299CC;
+    --cor3: #5299CC;
+    --cor4: #CCEAFF;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+    --fonte-homepage: "Mea Culpa", cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor4);
+}
+section.topbar{
+    background-color: var(--cor0);
+}
+#botao{
+    width: 250px;
+    height: 75px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+#botao > a{
+    text-decoration: none;
+    font-family: var(--fonte-homepage);
+    color: white;
+}
+#searchbar{
+    margin: 30px;
+}
